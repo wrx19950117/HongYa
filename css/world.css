@@ -1,0 +1,143 @@
+			/*ad-carousel*/
+			#ad-carousel{margin-top: 50px;}
+			/*container*/
+			.container .row1 .col-md-4 p{font:bold 40px "微软雅黑";/*border: 1px solid red;*/color: #035CAC;}
+			.container .row1 .col-md-4 p:nth-child(2){font: 30px "微软雅黑";color: #E2E2E2;}
+			.container .row2 .col-md-6 p{font: 1em "微软雅黑";color: #666666;line-height: 2;}
+			#collapseOne .panel-body p{text-indent: 2em;line-height: 1.5;}
+			#collapseTwo .panel-body img{width: 100%;height: 250px;}
+			#collapseTwo .panel-body p{text-indent: 2em;line-height: 3;}
+			#collapseTwo .panel-body span{display: block;font: 20px '微软雅黑';color: #035CAC;}
+			#collapseTwo .panel-body img:hover{
+				cursor: pointer;
+				animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+				transform: translate3d(0, 0, 0);
+				backface-visibility: hidden;
+				perspective: 1000px;
+			}
+			@keyframes shake {
+				10%, 90% {
+					transform: translate3d(-1px, 0, 0);
+				}
+				20%, 80% {
+					transform: translate3d(2px, 0, 0);
+				}
+				30%, 50%, 70% {
+					transform: translate3d(-4px, 0, 0);
+				}
+				40%, 60% {
+					transform: translate3d(4px, 0, 0);
+				}
+			}
+			#collapseThree .panel-body img{width: 100%;height: 250px;}
+			#collapseThree .panel-body p{text-indent: 2em;line-height: 3;}
+			#collapseThree .panel-body span{display: block;font: 20px '微软雅黑';color: #035CAC;}
+			#collapseThree .panel-body img:hover{
+				cursor: pointer;
+				animation: shake3 0.82s cubic-bezier(.36, .07, .19, .97) both;
+				transform: translate3d(0, 0, 0);
+				backface-visibility: hidden;
+				perspective: 1000px;
+			}
+			@keyframes shake3 {
+				10%, 90% {
+					transform: translate3d(-1px, 0, 0);
+				}
+				20%, 80% {
+					transform: translate3d(2px, 0, 0);
+				}
+				30%, 50%, 70% {
+					transform: translate3d(-4px, 0, 0);
+				}
+				40%, 60% {
+					transform: translate3d(4px, 0, 0);
+				}
+			}
+			#collapseFour .panel-body img{width: 100%;height: 250px;}
+			#collapseFour .panel-body p{text-indent: 2em;line-height: 3;}
+			#collapseFour .panel-body span{display: block;font: 20px '微软雅黑';color: #035CAC;}
+			#collapseFour .panel-body img:hover{
+				cursor: pointer;
+				animation: shake4 0.82s cubic-bezier(.36, .07, .19, .97) both;
+				transform: translate3d(0, 0, 0);
+				backface-visibility: hidden;
+				perspective: 1000px;
+			}
+			@keyframes shake4 {
+				10%, 90% {
+					transform: translate3d(-1px, 0, 0);
+				}
+				20%, 80% {
+					transform: translate3d(2px, 0, 0);
+				}
+				30%, 50%, 70% {
+					transform: translate3d(-4px, 0, 0);
+				}
+				40%, 60% {
+					transform: translate3d(4px, 0, 0);
+				}
+			}
+			#collapseFive .panel-body img{width: 100%;height: 250px;}
+			#collapseFive .panel-body p{text-indent: 2em;line-height: 3;}
+			#collapseFive .panel-body span{display: block;font: 20px '微软雅黑';color: #035CAC;}
+			#collapseFive .panel-body img:hover{
+				cursor: pointer;
+				animation: shake5 0.82s cubic-bezier(.36, .07, .19, .97) both;
+				transform: translate3d(0, 0, 0);
+				backface-visibility: hidden;
+				perspective: 1000px;
+			}
+			@keyframes shake5 {
+				10%, 90% {
+					transform: translate3d(-1px, 0, 0);
+				}
+				20%, 80% {
+					transform: translate3d(2px, 0, 0);
+				}
+				30%, 50%, 70% {
+					transform: translate3d(-4px, 0, 0);
+				}
+				40%, 60% {
+					transform: translate3d(4px, 0, 0);
+				}
+			}
+			/*content-bottom*/
+			.content-bottom{background-color: #222222;}
+			.content-bottom .container .row .col-md-2{margin-top: 1em;}
+			.content-bottom .container .row .col-md-2 h4 a{color: #ffffff;text-decoration: none;}
+			.content-bottom .container .row .col-md-2 h4 a:hover{color: #035CAC;text-decoration: none;}
+			.content-bottom .container .row .col-md-2 p a{color: #B0B0B0;text-decoration: none;}
+			.content-bottom .container .row .col-md-2 p a:hover{color: #ffffff;}
+			.content-bottom .container .row .col-md-1 p a{color: #ffffff;}
+			.content-bottom .container .row .col-md-3 .col-md-6{text-align: center;box-sizing: border-box;padding-top: 2em;}
+			.content-bottom .container .row .col-md-3 .col-md-6 img{width: 100px;height: 100px;}	
+			.content-bottom .container .row .col-md-3 .col-md-6 p{color: white;box-sizing: border-box;padding-top: 10px;}
+			/*footer*/	
+			footer{background-color: #000000;/*height: 4em;*/} 	
+			footer .container{/*border: 1px solid red;*/}
+			footer .container hr{color: #111111;margin-top: 1em;}
+			footer .container .footer_row1{margin-top: 1em;}
+			footer .container .footer_row1 .col-md-8{}
+			footer .container .footer_row1 .col-md-8 span{font-size: 1em;color:#AAB0B0;}
+			footer .container .footer_row1 .col-md-8 span a{color: #AAB0B0;}
+			footer .container .footer_row1 .col-md-8 span:nth-child(1){padding:1em 0.8em;}
+			footer .container .footer_row1 .col-md-8 span:nth-child(3){padding:1em 0.8em;}
+			footer .container .footer_row1 .col-md-8 span:nth-child(5){padding:1em 0.8em;}
+			footer .container .footer_row1 .col-md-4{}
+			footer .container .footer_row1 .col-md-4 span{font-size: 1em;color:#AAB0B0;}
+			footer .container .footer_row1 .col-md-4 span a{color: #AAB0B0;}
+			footer .container .footer_row1 .col-md-4 span:nth-child(1){padding:1em 0.8em;}
+			footer .container .footer_row1 .col-md-4 span:nth-child(3){padding:1em 0.8em;}
+			footer .container .footer_row1 .col-md-4 span:nth-child(5){padding:1em 0.8em;}
+			footer .container .footer_row1 .col-md-4 span:nth-child(7){padding:1em 0.8em;}
+			footer .container .footer_row2{}
+			footer .container .footer_row2 .col-md-9{}
+			footer .container .footer_row2 .col-md-9 span{color: #AAB0B0;}
+			footer .container .footer_row2 .col-md-9 span:nth-child(2) a{color: #333;text-decoration: none;}
+			footer .container .footer_row2 .col-md-3{}
+			footer .container .footer_row2 .col-md-3 span{border: 1px solid #AAB0B0;font-size: 1.3em;color: #ADADAD;padding: 0.3em 3em;}
+			footer .container .footer_row2 .col-md-3 span.gt{border: none;transform: rotate(90deg);padding: 0;}
+			footer .container .footer_row2 .col-md-3 span:hover+.disnone{display:block;}
+			footer .container .footer_row2 .col-md-3 .disnone{display: none;position: relative;}
+			footer .container .footer_row2 .col-md-3 .disnone ul{position: absolute;bottom:0.95em;left: -15%;}
+			footer .container .footer_row2 .col-md-3 .disnone ul li{list-style: none;border: 1px solid #AAB0B0;font-size: 1.3em;border-bottom: none;color: #ADADAD;}
